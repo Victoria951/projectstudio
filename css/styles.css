@@ -404,6 +404,10 @@ body{
 }
 
  /*===WORK===*/
+ .work .section{
+    display:none;
+    padding: 0;
+ }
 .work-list{
     display: none; 
 }

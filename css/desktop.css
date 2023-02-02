@@ -103,6 +103,9 @@
     }
     
       /* ====WORK=== */
+      .work .section{
+        display:block;
+     }
     .work-list{
         display: flex;
         justify-content: center;
@@ -151,6 +154,9 @@
 
     .footer-page{
         margin: 0;
+    }
+    .footer-form{
+        flex-wrap: nowrap;
     }
 
     .subscribe.footer-info{
