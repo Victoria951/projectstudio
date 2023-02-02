@@ -1,0 +1,182 @@
+@media screen and (min-width:1200px) {
+    .container{
+        max-width: 1158px;
+    }
+
+     /* ====HEADER=== */
+    .nav-logo {
+        margin-right: auto;
+    }
+    
+    .link.current::after {
+        bottom: -24px;
+    }
+
+    .aut-nav {
+        gap: 40px;
+    }
+
+    .aut-nav .link{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+      /* ====HERO=== */
+    .overlay-hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)),
+         url('../images/Dark-des-bg.jpg'); 
+         }
+
+      @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .overlay-hero {
+       background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)),
+         url('../images/Dark-des-bg@2x.jpg');
+        }
+    } 
+
+    .hero{
+        padding-top: 192px;
+        padding-bottom:192px ;
+        text-align: center;
+    }
+
+    .hero-title{
+        margin-bottom: 48px;
+        font-size: 56px;
+        line-height: 1.07;
+    }
+    
+    .button{ 
+        padding: 16px 32px;
+    }
+
+    .button-portfolio{
+        padding: 8px 16px;
+    }
+
+      /* ====FUETURE=== */
+    .section{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .no-padding{
+        padding-bottom: 0;
+    }
+
+    .fueture-list{
+        display: flex;
+    }
+
+    .fueture-icon{
+        display: flex;
+    }
+
+    .fueture-list .item{
+        width: calc(25% - 24px);
+        margin: 0 12px;
+    }
+
+    .fueture-list .item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .item-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 112px; 
+        background-color: var(--primary-cloud-color); 
+        margin-bottom: 8px;   
+    } 
+    
+    .fueture-list .title {
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: start;  
+    }
+    
+      /* ====WORK=== */
+    .work-list{
+        display: flex;
+        justify-content: center;
+        gap: 24px; 
+    }
+
+    .work-list .item{
+        width: 360px;  
+    }
+    
+    .work .title{
+        display: block;
+        margin-top: 0;
+        margin-bottom: 72px;
+        color:var(--title-text-color);
+        font-weight: 600;
+        font-size: 36px; 
+        line-height: 1.11;
+        text-align: center;
+    }
+
+     /* ====CUSTOMER=== */
+    .customers{
+        padding-top:120px;
+        padding-bottom: 120px; 
+    }
+
+    .customers-link{
+       gap: 24px;
+    }
+
+    .client{
+    width: calc((100% - 120px) / 6); 
+    }
+
+     /* ===FOOTER=== */
+    .footer{
+        padding-top: 100px; 
+        padding-bottom: 100px;     
+    } 
+
+    .info{
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .footer-page{
+        margin: 0;
+    }
+
+    .subscribe.footer-info{
+        max-width: 456px; 
+    }
+
+     /*===PORTFOLIO===  */
+    .portfolio-card{
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .button-container{
+        margin-bottom: 72px; 
+    }
+
+    .button-container .item+.item{
+       margin-left: 24px;
+    } 
+
+    .project-card{
+        column-gap: 24px; 
+        row-gap: 48px;
+    }
+
+    .card-info{
+     max-width: 360px;
+    }
+}
